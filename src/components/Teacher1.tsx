@@ -66,7 +66,7 @@ const Teacher1 = () => {
               <div>
                 <div
                   className="radial-progress bg-primary text-primary-content border-primary border-4"
-                  style={{ "--value": 70 }}
+                  // style={{ "--value": 70 }}
                   role="progressbar"
                 >
                   70%
