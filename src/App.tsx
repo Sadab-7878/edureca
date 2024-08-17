@@ -1,4 +1,3 @@
-import React from 'react';
 import Teacher1 from './components/Teacher1';
 
 function App() {
