@@ -47,39 +47,34 @@ const Teacher1 = () => {
           </div>
           <div className="flex flex-col justify-between py-10 px-10   rounded-md shadow-lg w-[900px]">
             {/* 1 */}
-            <div className="flex items-center justify-between">
+            <div className="">
               {/* 1 */}
-              <div className="font-medium">Student Result Prediction</div>
-              <div>
-                {/* 2 */}
-                <button className="flex justify-center items-center text-white bg-[#5b40ff] px-5 py-2 gap-2 rounded-md">
-                  <p>Subject Recommendation</p>
-                </button>
-              </div>
+              <div className="font-medium">Recommended Subjects</div>
             </div>
             {/* 2 */}
             <div className="text-center space-y-5">
               {/* 1 */}
-              <div>Fail Possibility Rate!</div>
+              <div className="space-x-20">
+
+                <button className="text-[#5900D9] bg-[#864AB80D] w-[140px] py-3 rounded-md font-semibold">বাংলা</button>
+                <button className="text-[#1456E6] bg-[#165EFD1A] w-[140px]  py-3 rounded-md font-semibold">ইংরেজি</button>
+                <button className="text-[#5CB07F] bg-[#65C18C1A] w-[140px]  py-3 rounded-md font-semibold">গনিত</button>
+                <button className="text-[#E88836] bg-[#FF953B1A] w-[140px]  py-3 rounded-md font-semibold">ইতিহাস</button>
+
+              </div>
               {/* 2 */}
 
-              <div>
-                <div
-                  className="radial-progress bg-primary text-primary-content border-primary border-4"
-                  // style={{ "--value": 70 }}
-                  role="progressbar"
-                >
-                  70%
-                </div>
+              <div className="space-x-10">
+
+              <button className="text-[#5CB07F] bg-[#65C18C1A] w-[240px]  py-3 rounded-md font-semibold">গনিত</button>
+              <button className="text-[#E88836] bg-[#FF953B1A] w-[240px]  py-3 rounded-md font-semibold">ইতিহাস</button>
+             
               </div>
             </div>
             {/* 3 */}
             <div className="text-center mx-auto  w-[450px] rounded-md bg-[#5b40ff]">
               <p className="py-5 text-white">
-                Honorable Teacher we want to support your student’s <br />{" "}
-                success! Our analysis indicates a current predictive <br /> fail
-                rate of 65%. Let's work together to explore <br /> strategies
-                for improvement and ensure your <br /> continued progress.
+              This particular subject’s [Student Name ] need  to improve.
               </p>
             </div>
           </div>
