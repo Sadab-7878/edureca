@@ -1,7 +1,10 @@
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 const Teacher1 = () => {
+
+ 
   return (
     <>
       <div className="">
@@ -65,8 +68,8 @@ const Teacher1 = () => {
 
               <div>
                 <div
-                  className="radial-progress bg-primary text-primary-content border-primary border-4"
-                  // style={{ "--value": 70 }}
+                  className="radial-progress bg-white text-[#D11212] border-gray-100 border-4"
+                  style={{ "--value": 70 }}
                   role="progressbar"
                 >
                   70%
